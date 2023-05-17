@@ -6,7 +6,7 @@ provider "aws" {
 terraform {
   required_version = "~>1.4.5"
   backend "s3" {
-    bucket  = "backend-carconnect-dev-tfstates"
+    bucket  = "minha bucket s3"
     key     = "terraform/network.tfstate"
     region  = "us-east-1"
     profile = "default"

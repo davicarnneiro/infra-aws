@@ -6,5 +6,5 @@ variable "region" {
 
 variable "ocean_cluster_name" {
   description = "EKS name"
-  default     = "eks-carro-conectado"
+  default     = "Nome Cluster"
 }
