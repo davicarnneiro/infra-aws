@@ -4,7 +4,7 @@ variable "region" {
   default     = "us-east-1"
 }
 
-variable "ocean_cluster_name" {
+variable "cluster_name" {
   description = "EKS name"
   default     = "Nome Cluster"
 }
